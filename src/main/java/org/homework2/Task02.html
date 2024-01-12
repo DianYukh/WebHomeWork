@@ -2,9 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>List</title>
+    <style>
+ol{
+    font-family: "Arial", serif;
+    font-size: 15px;
+    list-style-type: none;
+    background-color: #f3f3f3;
+    list-style-position: inside;
+    padding: 60px;
+    margin: 60px;
+}
+        li{
+            padding: 10px;
+        }
+        li span{
+            color: #930101;
+        }
+.one{
+    list-style-image: url("icons/unchecked_16.png");
+    background-color: #a4cbda;
+
+}
+.two{
+    list-style-image: url("icons/unchecked_16.png");
+    background-color: #acd8e5;
+
+
+}
+        .there{
+            list-style-image: url("icons/checked_16.png");
+            background-color: #e0e0e1;
+
+        }
+        .four{
+            font-size: large;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
 
+
+<ol>
+    <li class = "four">My To Do List</li>
+    <li class = "one">Hit the gym  &nbsp; &nbsp;  &nbsp;<span>&#x2716;</span></li>
+    <li class = "there"><del> Pay bills</del>&nbsp; &nbsp;  &nbsp;<span>&#x2716;</span></li>
+    <li class = "one" >Meet John&nbsp; &nbsp;  &nbsp;<span>&#x2716;</span></li>
+    <li class = "two" >Buy eggs&nbsp; &nbsp;  &nbsp;<span>&#x2716;</span></li>
+    <li class = "there" ><del> Read a book</del>&nbsp; &nbsp;  &nbsp;<span>&#x2716;</span></li>
+    <li class = "two" >Organize office&nbsp; &nbsp;  &nbsp;<span>&#x2716;</span></li>
+    <li class = "one" >Eat dinner&nbsp; &nbsp;  &nbsp;<span>&#x2716;</span></li>
+    <li class = "two" >Buy apples&nbsp; &nbsp;  &nbsp;<span>&#x2716;</span></li>
+    <li class = "one" >Meet George&nbsp; &nbsp;  &nbsp;<span>&#x2716;</span> </li>
+    <li class = "two" >Feed the cat&nbsp; &nbsp;  &nbsp;<span>&#x2716;</span></li>
+    <li class = "there" ><del> Write a letter</del>&nbsp; &nbsp;  &nbsp;<span>&#x2716;</span></li>
+    <li class = "two" >Run 1 km&nbsp; &nbsp;  &nbsp;<span>&#x2716;</span></li>
+</ol>
 </body>
 </html>

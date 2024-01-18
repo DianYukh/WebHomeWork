@@ -36,39 +36,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "origin",
-    "last_opened_file_path": "C:/Users/Dipanterian/IdeaProjects/WebHomeWork/src/main/java/org/homework2",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "onboarding.tips.debug.path": "C:/Users/Dipanterian/IdeaProjects/WebHomeWork/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "advanced.settings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;origin&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dipanterian/IdeaProjects/WebHomeWork/src/main/java/org/homework2&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Dipanterian/IdeaProjects/WebHomeWork/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory",
-      "module"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Dipanterian\IdeaProjects\WebHomeWork\src\main\java\org\homework2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dipanterian\IdeaProjects\WebHomeWork\src\main\java\org\homework4\Task01" />
+      <recent name="C:\Users\Dipanterian\IdeaProjects\WebHomeWork\src\main\java\org\homework4" />
+      <recent name="C:\Users\Dipanterian\IdeaProjects\WebHomeWork\src\main\java\org\homework4\Task01\icons" />
+      <recent name="C:\Users\Dipanterian\IdeaProjects\WebHomeWork\src\main\java\org\homework4\Task02" />
       <recent name="C:\Users\Dipanterian\IdeaProjects\WebHomeWork\src\main\java\org\homework3\Task01" />
-      <recent name="C:\Users\Dipanterian\IdeaProjects\WebHomeWork\src\main\java\org\homework2\icons" />
-      <recent name="C:\Users\Dipanterian\IdeaProjects\WebHomeWork\src\main\java\org\homework2" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -83,6 +85,7 @@
       <workItem from="1705051544576" duration="12147000" />
       <workItem from="1705163468172" duration="2185000" />
       <workItem from="1705229893229" duration="39646000" />
+      <workItem from="1705505264335" duration="9469000" />
     </task>
     <task id="LOCAL-00001" summary="HomeWork1">
       <option name="closed" value="true" />
@@ -156,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705415140499</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="HomeWork3">
+      <option name="closed" value="true" />
+      <created>1705591165994</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1705591165994</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

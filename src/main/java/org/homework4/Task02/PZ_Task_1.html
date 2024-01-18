@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PZ_Task_1</title>
+    <style>
+        body{
+            background-color: #eaeaea;
+        }
+        table{
+            border-spacing: 0;
+            position: relative;
+            width: 80%;
+            height: 70%;
+            left: 10%;
+            top:10%;
+            border-radius: 15px;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+
+        }
+        tbody{
+font-size: 12px;
+        }
+        thead{
+            color: white;
+        }
+        h1{
+            margin-top: 30px;
+            margin-bottom: 0px;
+        }
+        p{
+            margin-top: 0px;
+        }
+        input{
+            width: 100px;
+            height: 40px;
+            background-color: darkgrey;
+        }
+        td,th{
+            text-align: center;
+        }
+        th:first-child {
+            text-align: left;
+            padding-left: 5%;
+        }
+        td:nth-child(2n+2){
+            height: 55px;
+        }
+        tfoot th, tfoot td:nth-child(odd), tbody tr:nth-child(odd), tbody tr:nth-child(odd)>td:nth-child(odd) {
+            background-color: darkgrey;
+        }
+        tfoot td:nth-child(even), tbody tr:nth-child(even)>th, tbody tr:nth-child(even)>td:nth-child(odd) {
+            background-color: #cecece;
+        }
+
+        tbody tr:nth-child(odd)>td:nth-child(even) {
+            background-color: #cecece;
+        }
+        thead th:first-child{
+            background-color: #7986af;
+        }
+        thead th:nth-child(2){
+            background: #4f6390;
+        }
+        thead th:nth-child(3){
+            background: #4f6390;
+        }
+        thead th:nth-child(4){
+            background: #182958;
+        }
+        thead th:nth-child(5){
+            background: #06163a;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <thead>
+    <tr>
+        <th>Choose your plan</th>
+        <th>
+            <p>starter</p>
+            <h1>$10</h1>
+            <p>per month</p>
+        </th>
+        <th>
+            <p>econom</p>
+            <h1>$30</h1>
+            <p>per month</p>
+        </th>
+        <th>
+            <p>standard</p>
+            <h1>$59</h1>
+            <p>per month</p>
+        </th>
+        <th>
+            <p>professional</p>
+            <h1>$99</h1>
+            <p>per month</p>
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th>Amount of space</th>
+        <td>20GB</td>
+        <td>40GB</td>
+        <td>110GB</td>
+        <td>Unlimited</td>
+    </tr>
+    <tr>
+        <th>Bandwidth per month</th>
+        <td>120GB</td>
+        <td>240GB</td>
+        <td>610GB</td>
+        <td>1300GB</td>
+    </tr>
+    <tr>
+        <th>Email accounts</th>
+        <td>1</td>
+        <td>15</td>
+        <td>60</td>
+        <td>Unlimited</td>
+    </tr>
+    <tr>
+        <th>MySQL data base</th>
+        <td>1</td>
+        <td>15</td>
+        <td>60</td>
+        <td>Unlimited</td>
+    </tr>
+    <tr>
+        <th>25h support</th>
+        <td>No</td>
+        <td>Yes</td>
+        <td>Yes</td>
+        <td>Yes</td>
+    </tr>
+    <tr>
+        <th>Support tickets per month</th>
+        <td>2</td>
+        <td>6</td>
+        <td>14</td>
+        <td>20</td>
+    </tr>
+    <tfoot>
+        <tr>
+            <th></th>
+            <td><input type="button" value="START"></td>
+            <td><input type="button" value="START"></td>
+            <td><input type="button" value="START"></td>
+            <td><input type="button" value="START"></td>
+        </tr>
+    </tfoot>
+    </tbody>
+</table>
+</body>
+</html>

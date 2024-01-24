@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c0a109c-6e99-4e1e-af91-5663b605968f" name="Changes" comment="HomeWork3" />
+    <list default="true" id="7c0a109c-6e99-4e1e-af91-5663b605968f" name="Changes" comment="HomeWork4">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/homework5/Task01/Task01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/homework5/Task01/img/moon_flag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/homework5/Task01/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,11 +71,11 @@
       <recent name="C:\Users\Dipanterian\IdeaProjects\WebHomeWork\src\main\java\org\homework2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dipanterian\IdeaProjects\WebHomeWork\src\main\java\org\homework5\Task01" />
+      <recent name="C:\Users\Dipanterian\IdeaProjects\WebHomeWork\src\main\java\org\homework5\Task01\img" />
       <recent name="C:\Users\Dipanterian\IdeaProjects\WebHomeWork\src\main\java\org\homework4\Task01" />
       <recent name="C:\Users\Dipanterian\IdeaProjects\WebHomeWork\src\main\java\org\homework4" />
       <recent name="C:\Users\Dipanterian\IdeaProjects\WebHomeWork\src\main\java\org\homework4\Task01\icons" />
-      <recent name="C:\Users\Dipanterian\IdeaProjects\WebHomeWork\src\main\java\org\homework4\Task02" />
-      <recent name="C:\Users\Dipanterian\IdeaProjects\WebHomeWork\src\main\java\org\homework3\Task01" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -85,7 +90,8 @@
       <workItem from="1705051544576" duration="12147000" />
       <workItem from="1705163468172" duration="2185000" />
       <workItem from="1705229893229" duration="39646000" />
-      <workItem from="1705505264335" duration="9469000" />
+      <workItem from="1705505264335" duration="11373000" />
+      <workItem from="1705685206401" duration="17349000" />
     </task>
     <task id="LOCAL-00001" summary="HomeWork1">
       <option name="closed" value="true" />
@@ -167,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705591165994</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="HomeWork4">
+      <option name="closed" value="true" />
+      <created>1705591295642</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1705591295642</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +204,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="HomeWork2" />
     <MESSAGE value="HomeWork3" />
-    <option name="LAST_COMMIT_MESSAGE" value="HomeWork3" />
+    <MESSAGE value="HomeWork4" />
+    <option name="LAST_COMMIT_MESSAGE" value="HomeWork4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Card</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2> CREDIT CARD DETAILS</h2>
+<form action="" method="get">
+
+    <div class="box-body">
+
+
+        <label for="card number"><span>Card Number</span></label> <br><br>
+        <input class="info" type="text" name="card number" id="card number" placeholder="1234 5678 9012 3456" required
+               pattern="[0-9]{4} [0-9]{4} [0-9]{4} [0-9]{4}">
+        <br>
+        <br>
+        <label><span>Name of Card</span> <br> <br>
+            <input class="info" type="text" name="nameOfCard" id="nameOfCard" placeholder="Name Surname">
+        </label>
+        <br>
+        <br>
+        <table>
+            <tr>
+                <td><span>Expiry Date</span> <br></td>
+                <td></td>
+                <td> <span class="cvv"> CVV/CVN</span> <br></td>
+            </tr>
+<tr>
+
+           <td>
+               <label>
+                <input class="expirebox" type="number" name="month" min="01" max="12" placeholder="02">
+            </label>
+           </td>
+    <td>
+            <label>
+                <input id="exp2" class="expirebox" type="number" name="year" min="2016" max="2032" placeholder="2017">
+            </label>
+    </td>
+    <td>
+            <label>
+                <input id="exp3" class="expirebox" type="text" name="cvv" pattern="[0-9]{3}" placeholder="***">
+            </label>
+    </td>
+
+</tr>
+        </table>
+        <img src="img/moon_flag.png">
+    </div>
+</form>
+</body>
+</html>

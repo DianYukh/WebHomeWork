@@ -13,6 +13,22 @@
     щоб перевірити число на досконалість.
 </h3>
 <script>
+    function myFunction(min, max) {
+        let result = [];
+        for (let i = min; i <= max; i++) {
+            sum=0;
+            for (let n = 1; n <= i/2; n++) {
+                if (i % n === 0) sum += n;
+            }
+            if (i === sum) result.push(i);
+        }
+        return result;
+    }
+
+    console.log(myFunction(1, 500));
+
+
+
 
 </script>
 </body>

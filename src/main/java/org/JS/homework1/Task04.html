@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task04</title>
+
+</head>
+<body>
+<h3>4. Напишіть функцію, яка приймає довжину та ширину прямокутника і обчислює його площу. Якщо у функцію передали 1 параметр,
+    вона вираховує площу квадрата.</h3>
+<script>
+
+    function myFunction1(a,b) {
+        if (arguments.length === 2) {
+            document.write("Площа прямокутника = " + a*b + "<br>")
+        } else if (arguments.length === 1){
+           document.write("Площа прямокутника = " + a*a + "<br>")
+        } else {
+            console.log("Введені неправильні дані");
+        }
+    }
+
+    myFunction1(2, 6);
+    myFunction1(2);
+
+    function myFunction2(a,b) {
+        if (arguments.length === 2) {
+            let result = "Площа прямокутника = " + a * b;
+            document.write(result + "<br>");
+            console.log(result);
+        } else if (arguments.length === 1) {
+            let result = "Площа квадрата = " + a * a;
+            document.write(result + "<br>");
+            console.log(result);
+        } else {
+            console.log("Введені неправильні дані");
+        }
+    }
+
+
+
+
+    myFunction2(3, 5);
+   myFunction2(3);
+
+
+
+</script>
+</body>
+</html>

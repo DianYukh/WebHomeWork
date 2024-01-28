@@ -1,50 +1,53 @@
 
-body{
-    display: flex;
-}
+
 .one {
     border-radius: 10px;
-    margin-right: 2%
+    margin-right: 2%;
+
 }
 
 .two {
     margin-right: 30px;
     border-radius: 10px;
+
 }
 
 img {
     border-radius: 10px;
     width: 100%;
 }
-
 table {
     width: 320px;
     height: 200px;
     background-color: #37516b;
+
 }
 
+
+
+
+
+
 .text-box {
-    width: 100%;
+    width: 62%;
     font-family: "Arial", serif;
     text-align: justify;
     margin-left: 30px;
     margin-right: 30px;
     overflow: hidden;
+    float: left;
 
-    flex: 1;
 }
-.content {
-    display: flex;
 
-
-    width:70%;
+.sidebar{
+    width: 20%;
+    float: left;
+    margin-top: 30px;
 }
-.main-content {
-    width: 70%;
 
 
-    flex: 1;
-}
+
+
 
 .table {
     color: white;
@@ -53,19 +56,14 @@ table {
     padding: 10px;
 
 }
-.sidebar{
-    width: 30%;
 
-    margin-left: 20px;
-
-}
 .paragraph1 {
     padding-top: 20px;
 }
 
 @media (min-width: 800px) {
     .sidebar {
-       margin-left: 2%;
+        margin-left: 2%;
     }
     .one {
         margin-bottom: 20px;
@@ -74,40 +72,48 @@ table {
 
 
 @media (min-width: 600px) and (max-width: 800px) {
-    .content {
-        flex-direction: column;
 
-    }
-    .paragraph {
-        order: 1;
-    }
     .sidebar {
-
-        order: 2;
-        width: 100%;
+        width:92%;
+        display: flex;
+        position: absolute;
+        left: 40px;
+        top: 180px;
 
     }
-    table {
-        width: 100%;
-        height: auto;
+    .text-box{
+        width: 92%;
+        height: 900px;
+        position: relative;
     }
-.one .two{
-   width: 100%;
-}
+    .abzacz{
+       position: relative;
+        top: 300px;
+    }
+
 }
 
 @media (max-width: 600px) {
     .sidebar {
+        width: 100%;
+        position: absolute;
+        margin-left: 30px;
 
-        float:none;
-        margin-bottom: 20px;
+        top: 190px;
     }
-
+    .text-box{
+        width: 92%;
+        position: relative;
+        height: 1500px;
+    }
     table {
-        width: 100%;
+        width: 450px;
+        margin-top: 20px;
     }
-    .one .two{
-        margin-bottom: 20px;
-        width: 100%;
+    .abzacz{
+        position: relative;
+        top: 730px;
+
     }
+
 }

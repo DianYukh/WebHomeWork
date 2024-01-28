@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<style>
+    div{
+        margin: 50px;
+    }
+    #digit{
+        width: 5%;
+
+
+    }
+
+</style>
+</head>
+<body>
+
+<div>
+
+    <label for="digit"></label>
+    <input type="number" id="digit" value="0" readonly>
+    <input type="button" id="more" value="&and;" >
+    <input type="button" id="less" value="&or;">
+</div>
+
+<script>
+    let clicks = 0;
+    let btn1 = document.getElementById("more");
+    btn1.addEventListener("click", function (){
+        clicks += 1;
+        document.getElementById("digit").value = clicks;
+    });
+    let btn2 = document.getElementById("less");
+    btn2.addEventListener("click", function() {
+        clicks -= 1;
+        document.getElementById("digit").value = clicks;
+    });
+
+
+</script>
+</body>
+</html>

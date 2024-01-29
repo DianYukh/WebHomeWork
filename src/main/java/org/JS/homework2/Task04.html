@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Traffic Light</title>
+    <style>
+        #red, #orange, #green {
+            width: 50px;
+            height: 50px;
+            background-color: #898989;
+            border-radius: 50%;
+            border: none;
+            margin-left: 8px;
+            vertical-align: top;
+        }
+
+        #next{
+            box-shadow: 5px 4px 8px 0 rgba(0, 0, 0, 0.2), 5px 6px 20px 0 rgba(0, 0, 0, 0.19);
+            display: inline-block;
+            border-width: 2px;
+            border-style: solid;
+            border-radius: 15px;
+            margin-left: 10px;
+            width: 50px;
+            height: 73px;
+            background-color: #9d9d9d;
+            vertical-align: top;
+            color: #e5e4fa;
+        }
+        .border{
+            background-color: #e5e4fa;
+            box-shadow: 5px 4px 8px 0 rgba(0, 0, 0, 0.2), 5px 6px 20px 0 rgba(0, 0, 0, 0.19);
+            display: inline-block;
+            padding: 10px;
+            border-width: 2px;
+            align-items: center;
+            border-style: solid;
+            border-radius: 15px;
+            width: 190px;
+        }
+        body{
+
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>
+<div class = "border">
+<button id="red" ></button>
+
+<button id="orange"></button>
+
+<button id="green"></button>
+</div>
+<button id="next" onclick="changeColor() ">NEXT</button>
+
+<script>
+    let color = '#FF0000';
+    function changeColor() {
+
+        document.getElementById('red').style.backgroundColor = '#898989';
+        document.getElementById('orange').style.backgroundColor = '#898989';
+        document.getElementById('green').style.backgroundColor = '#898989';
+
+        if (color === 'red') {
+            document.getElementById('orange').style.backgroundColor = '#fd9500';
+            color = 'orange';
+        } else if (color === 'orange') {
+            document.getElementById('green').style.backgroundColor = '#39cc21';
+            color= 'green';
+        } else {
+            document.getElementById('red').style.backgroundColor = '#FF0000';
+            color = 'red';
+        }
+    }
+</script>
+
+</body>
+</html>

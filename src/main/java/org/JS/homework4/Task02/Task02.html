@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MENU</title>
+  <style>
+    #sidebar{
+      font-size: 14px;
+      font-family: Arial, sans-serif;
+      background-color: #727272;
+      width: 170px;
+      height: 100%;
+      transition: width 0.5s ease;
+      color: white;
+      cursor: pointer;
+      overflow: hidden;
+    }
+    h3{
+      margin-left: 14px;
+      padding-top: 20px;
+    }
+    img{
+      width: 60px;
+      height: 60px;
+    }
+    .icons{
+      display: block;
+      margin-left: 6px;
+      transition: margin-left 0.5s;
+    }
+    span{
+      vertical-align: 26px;
+      opacity: 1;
+      visibility: visible;
+      transition: opacity 0.5s, visibility 0.5s;
+
+    }
+
+    .hidden span {
+       font-size: 0;
+        opacity: 0;
+        visibility: hidden;
+
+    }
+
+
+    #sidebar.hidden {
+        width: 75px;
+
+    }
+
+
+  </style>
+</head>
+<body>
+
+<div id="sidebar">
+  <h3> MENU </h3>
+<div class="icons">
+    <img  src="icons/edit.png" alt="EDIT"/> <span>EDIT</span><br>
+    <img  src="icons/favorites.png" alt="FAVOURITE"/><span>FAVOURITE</span><br>
+    <img  src="icons/history.png"  alt="HISTORY"/><span>HISTORY</span><br>
+    <img  src="icons/security.png" alt="SECURITY"/><span>SECURITY</span><br>
+    <img  src="icons/settings.png"  alt="SETTINGS"/><span>SETTINGS</span><br>
+</div>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script>
+$(document).ready(function (){
+    $("#sidebar h3").click(function (){
+        $("#sidebar").toggleClass("hidden")
+    });
+});
+  </script>
+</div>
+</body>
+</html>

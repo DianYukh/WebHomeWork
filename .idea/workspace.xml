@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c0a109c-6e99-4e1e-af91-5663b605968f" name="Changes" comment="HomeWork1">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/JS/homework1/Task06.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/JS/homework1/Task06.html" afterDir="false" />
+    <list default="true" id="7c0a109c-6e99-4e1e-af91-5663b605968f" name="Changes" comment="HomeWork3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/JS/homework4/Task02/Task02.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +19,7 @@
       <list>
         <option value="Class" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -69,11 +72,11 @@
       <recent name="C:\Users\Dipanterian\IdeaProjects\WebHomeWork\src\main\java\org\homework2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dipanterian\IdeaProjects\WebHomeWork\src\main\java\org\JS\homework4\Task02" />
       <recent name="C:\Users\Dipanterian\IdeaProjects\WebHomeWork\src\main\java\org\homework6\img" />
       <recent name="C:\Users\Dipanterian\IdeaProjects\WebHomeWork\src\main\java\org\homework5\Task01" />
       <recent name="C:\Users\Dipanterian\IdeaProjects\WebHomeWork\src\main\java\org\homework5\Task01\img" />
       <recent name="C:\Users\Dipanterian\IdeaProjects\WebHomeWork\src\main\java\org\homework4\Task01" />
-      <recent name="C:\Users\Dipanterian\IdeaProjects\WebHomeWork\src\main\java\org\homework4" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -93,7 +96,9 @@
       <workItem from="1706120322085" duration="10598000" />
       <workItem from="1706184585755" duration="5674000" />
       <workItem from="1706193678507" duration="7518000" />
-      <workItem from="1706343981959" duration="5941000" />
+      <workItem from="1706343981959" duration="38918000" />
+      <workItem from="1706637886049" duration="14000" />
+      <workItem from="1706724647406" duration="11627000" />
     </task>
     <task id="LOCAL-00001" summary="HomeWork1">
       <option name="closed" value="true" />
@@ -207,7 +212,47 @@
       <option name="project" value="LOCAL" />
       <updated>1706371162414</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="HomeWork1">
+      <option name="closed" value="true" />
+      <created>1706372094764</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1706372094764</updated>
+    </task>
+    <task id="LOCAL-00016" summary="HomeWork6">
+      <option name="closed" value="true" />
+      <created>1706464117052</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1706464117052</updated>
+    </task>
+    <task id="LOCAL-00017" summary="HomeWork2">
+      <option name="closed" value="true" />
+      <created>1706470458041</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1706470458041</updated>
+    </task>
+    <task id="LOCAL-00018" summary="HomeWork3">
+      <option name="closed" value="true" />
+      <created>1706532780826</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1706532780826</updated>
+    </task>
+    <task id="LOCAL-00019" summary="HomeWork3">
+      <option name="closed" value="true" />
+      <created>1706545971609</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1706545971609</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,13 +272,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HomeWork01" />
     <MESSAGE value="initial commit" />
-    <MESSAGE value="HomeWork2" />
-    <MESSAGE value="HomeWork3" />
     <MESSAGE value="HomeWork4" />
     <MESSAGE value="HomeWork5" />
     <MESSAGE value="HomeWork" />
     <MESSAGE value="HomeWork1" />
-    <option name="LAST_COMMIT_MESSAGE" value="HomeWork1" />
+    <MESSAGE value="HomeWork6" />
+    <MESSAGE value="HomeWork2" />
+    <MESSAGE value="HomeWork3" />
+    <option name="LAST_COMMIT_MESSAGE" value="HomeWork3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

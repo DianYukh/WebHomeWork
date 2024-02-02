@@ -21,26 +21,50 @@
         }
         .star {
             cursor: pointer;
-            color: black;
+            color: #b0afaf;
         }
-        .orange {
-            color: orange;
-        }
+
     </style>
 </head>
 <body>
 
 <div class="starRating">
     <span class="title"> Star Rating:</span>
-    <span class="star">&#9734;</span>
-    <span class="star">&#9734;</span>
-    <span class="star">&#9734;</span>
-    <span class="star">&#9734;</span>
-    <span class="star">&#9734;</span>
+    <span class="star" id = "s1">&#9733;</span>
+    <span class="star" id = "s2">&#9733;</span>
+    <span class="star" id = "s3">&#9733;</span>
+    <span class="star" id = "s4">&#9733;</span>
+    <span class="star" id = "s5">&#9733;</span>
 </div>
 
 <script>
+    $(document).ready(function() {
+        $("#s1").click(function() {
+            $(".star").css("color", "black");
+            $("#s1").css("color", "orange");
 
+        });
+        $("#s2").click(function() {
+            $(".star").css("color", "black");
+            $("#s1, #s2").css("color", "orange");
+
+        });
+        $("#s3").click(function() {
+            $(".star").css("color", "black")
+            $("#s1, #s2, #s3").css("color", "orange");
+
+        });
+        $("#s4").click(function() {
+            $(".star").css("color", "black");
+            $("#s1, #s2, #s3, #s4").css("color", "orange");
+
+        });
+        $("#s5").click(function() {
+            $(".star").css("color", "black");
+            $("#s1, #s2, #s3, #s4, #s5").css("color", "orange");
+
+        });
+    });
 
 </script>
 </body>

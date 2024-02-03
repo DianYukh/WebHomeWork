@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap");
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Cairo', sans-serif;}
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow: hidden;
+            background: #df99f5;
+        }
+
+        ul {
+            position: relative;
+        }
+        ul li {
+            list-style: none;
+            text-align: center;
+        }
+        ul li a {
+            color: #333;
+            text-decoration: none;
+            font-size: 2em;
+            padding: 5px 20px;
+            display: inline-flex;
+            font-weight: 700;
+            transition: 0.5s;
+        }
+        ul:hover li a {
+            color: #0002;
+        }
+        ul li:hover a {
+            color: #000;
+            background: transparent;
+        }
+        ul li a:before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 40%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 3em;
+            color: rgba(0, 0, 0, 0.1);
+            border-radius: 50%;
+            z-index: -1;
+            opacity: 0;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 500px;
+            transition: letter-spacing 0.5s, left 0.5s;
+        }
+        ul li a:hover:before {
+            content: attr(data);
+            opacity: 1;
+            left: 50%;
+            letter-spacing: 10px;
+            width: 1800px;
+            height: 1800px;
+        }
+        ul li:nth-child(6n + 1) a:before {
+            background: #0470fe;
+        }
+        ul li:nth-child(6n + 2) a:before {
+            background: #b15aff;
+        }
+        ul li:nth-child(6n + 3) a:before {
+            background: #fd68e6;
+        }
+h1{
+font-size: 5em;
+    text-transform: uppercase;
+}
+
+    </style>
+</head>
+
+<body>
+
+<ul>
+    <h1> Лисичанськ</h1>
+    <li><a   target="_blank"  data = "temperature">Температура</a></li>
+    <li><a  target="_blank" data="pressure" >Тиск</a></li>
+    <li><a   target="_blank"  data = "humidity">Вологість повітря</a></li>
+
+</ul>
+
+<script>
+    (function () {
+
+        let xhr = new XMLHttpRequest();
+        let url = "https://api.openweathermap.org/data/2.5/weather?APPID=7b5cbb6bb21d0fc862c3b47a3b967ddf&lat=48.56&lon=39.31"
+        xhr.open("GET", url, false);
+        xhr.send();
+        if (xhr.status === 200 && xhr.readyState === 4) {
+            let weather = JSON.parse(xhr.responseText);
+            console.log(weather);
+            let temperature = Math.round(weather.main.temp - 272);
+            document.styleSheets[0].addRule('ul li a[data="temperature"]:hover:before', 'content: "Температура: ' + temperature + '°C";');
+
+            let pressure = weather.main.pressure;
+            document.styleSheets[0].addRule('ul li a[data="pressure"]:hover:before', 'content: "Тиск: ' + pressure + ' мбар";');
+
+            let humidity = weather.main.humidity;
+            document.styleSheets[0].addRule('ul li a[data="humidity"]:hover:before', 'content: "Вологість повітря: ' + humidity + '%";');
+
+        }
+    })();
+</script>
+
+
+
+</body>
+</html>
